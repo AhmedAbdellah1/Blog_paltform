@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+    color: #222222;
+    max-width: 600px;
+    margin: auto;
+    font-family: sans-serif;
+}
+p {
+    line-height: 1.5;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #222222;
+}
+.link {
+    text-decoration: none;
+    cursor: pointer;
+    color: #222222;
+    padding: 10px;
+    background-color: #e6dfdf;
+    border-radius: 5px;
+    margin-top: 30px;
+    box-shadow: 8px 8px 17px #b4abab;
+}
+article + article {
+    margin-top: 2rem;
+    border-top: 1px solid #c5c5c5;
+    padding-top: 2rem;
+}
